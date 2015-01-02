@@ -9,8 +9,8 @@
 (declare R)
 
 (defn BAL [N n]
-  (let [R (- N n)]
-    (/ (- 1 (Math/pow (U) R))
+  (let [r (R N n)]
+    (/ (- 1 (Math/pow (U) r))
        (- 1 (Math/pow (U) N)))))
 
 (defn R [N n] (- N n))
